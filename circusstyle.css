@@ -1,0 +1,103 @@
+body {background: url(images/fond.jpg);
+    background-size: cover;
+    color:lightsalmon;
+    font-family: bigfish;
+    text-shadow: 2px 2px black;
+    }
+div { text-align: center;
+        color:lightsalmon;
+        text-shadow: 2px 2px black;
+        font-family: bigfish;
+        width: 50%;
+        margin-left: 25%;
+         }
+h6 { font-size: 1.5em;
+     ;
+}
+h1{ font-size: 5em;
+    }
+h2{text-decoration:overline;
+}
+.circustag{ margin-top: -350px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    position: absolute;
+    }
+.ticket { margin-left: 950px;
+          margin-bottom: 50px;
+          margin-top: -325px;
+          position: absolute;
+        }
+footer { background-color: rgba(30,15,90,0.6);
+         display:block;
+         height: 130px;
+         
+        }
+.circustag:hover{
+	transform: rotate(35deg);
+}
+#container {
+            width: 152px;
+           margin-left: 80%;
+            border: 1px lightsalmon solid;
+            box-shadow: 2px 2px black;
+            height: 65px;
+            overflow: hidden;
+        }
+        
+        .social {
+            text-align: center;
+            transition: all 0.2s, transform 0.2s ease;
+        }
+        
+        .social:hover {
+            transform: translateY(-59%);
+        }
+        
+        .social p {
+            display: flex;
+            padding: 2px 0;
+        }
+ul {display: flex;
+    justify-content: space-between;
+     }
+a {color: darksalmon;}
+
+nav{margin-left: 750px;
+    margin-bottom: 75px;
+    }
+
+        
+        .social a {
+            display: inline-block;
+            width: 47.5px;
+            background: url(images/fb.png);
+            height: 55px;
+            transition: all 0.2s ease;
+        }
+        
+        .social a:hover {
+            background: url(images/fb-over.png);
+        }
+.credits {margin-left: 20%;
+          text-decoration: underline;
+    }
+.contact {margin-left: 50%;
+          margin-top: -105px;
+          text-decoration: underline;}
+main{ text-align: center;
+      margin-left: 150px;}
+.ruban{height: 200px;
+       width: none;
+       float:left;
+    }
+.magic{ height:200px;
+        width: none;
+        float:right;}
+.feu{ height:200px;
+        float:left;
+        width: 170px;}
+section{ height: 250px;
+        width: 1000px;}
+
+
